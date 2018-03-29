@@ -423,12 +423,12 @@ class Environment
         }
 
         $cmd = vsprintf($cmd, [
+            'cmdExtra' => $cmdExtra,
             'binary' => $this->config->getBuildPath() . DIRECTORY_SEPARATOR . $this->config->getBinary('selenium')->getBinName(),
             'port' => $this->config->getPort(),
-            'proxyHost' => $this->config->getProxyHost(),
-            'proxyPort' => $this->config->getProxyPort(),
+//            'proxyHost' => $this->config->getProxyHost(),
+//            'proxyPort' => $this->config->getProxyPort(),
             'log' => $this->config->getLogsPath() . DIRECTORY_SEPARATOR . 'selenium.log',
-            'cmdExtra' => $cmdExtra
         ]);
 
         //var_dump($cmd);

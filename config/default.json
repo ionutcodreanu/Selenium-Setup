@@ -26,8 +26,8 @@
     },
     "selenium": {
       "label": "Selenium Server",
-      "version": "2.48.2",
-      "downloadUrl": "http://selenium-release.storage.googleapis.com/2.48/selenium-server-standalone-2.48.2.jar",
+      "version": "3.11.0",
+      "downloadUrl": "https://selenium-release.storage.googleapis.com/3.11/selenium-server-standalone-3.11.0.jar",
       "binName": "selenium-server.jar",
       "os": null,
       "osType": null
@@ -74,8 +74,8 @@
     },
     "chromedriver.linux.64bit": {
       "label": "ChromeDriver for Linux on 64 bit",
-      "version": "2.15",
-      "downloadUrl": "http://chromedriver.storage.googleapis.com/2.15/chromedriver_linux64.zip",
+      "version": "2.37",
+      "downloadUrl": "https://chromedriver.storage.googleapis.com/2.37/chromedriver_linux64.zip",
       "binName": "chromedriver",
       "os": "linux",
       "osType": "64bit"
