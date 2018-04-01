@@ -418,7 +418,7 @@ class Environment
         if ($this->isWindows()) {
             $cmd = 'start /b java -jar %s -port %s -Dhttp.proxyHost=%s -Dhttp.proxyPort=%s -log %s %s';
         } else {
-            $cmd = 'java -jar %s -port %s -Dhttp.proxyHost=%s -Dhttp.proxyPort=%s -log %s %s >/dev/null 2>&1 &';
+            $cmd = 'java %s -jar %s -port %s -log %s >/dev/null 2>&1 &';
 
         }
 
